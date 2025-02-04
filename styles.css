@@ -1,0 +1,94 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #B1CF5F;
+  color: #333;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  background-color: #1C7C54;
+  padding: 2rem;
+  border-radius: 3em;
+}
+
+nav li {
+  margin: 0 0.5em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5em 0.8em;
+}
+
+nav a:hover {
+  color: #B1CF5F;
+}
+
+.card-gallery {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card {
+  border: 2px solid #DEF4C6;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 30rem;
+  background-color: #1C7C54;
+  padding: 2rem;
+  color: white;
+}
+
+main {
+  padding: 2em;
+}
+
+.field {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2em;
+  color: white;
+}
+
+th, td {
+  border: 1px solid #DEF4C6;
+  padding: 10px;
+  text-align: left;
+  background-color: #1C7C54;
+}
+
+th {
+  background-color: #1B512D;
+}
+
+.video-gallery {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.video {
+  border: 2px solid #DEF4C6;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
